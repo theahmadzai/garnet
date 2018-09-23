@@ -1,0 +1,34 @@
+{
+  "name": "garnet",
+  "version": "1.0.0",
+  "description": "Lightweight CSS parser",
+  "keywords": [
+    "css",
+    "parser"
+  ],
+  "author": "Javed Ahmadzai <theahmadzai@hotmail.com>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "bin": "bin/garnet-parser.js",
+  "scripts": {
+    "build": "rollup -c",
+    "build:watch": "rollup -cw",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-flow": "^7.0.0",
+    "babel-eslint": "^9.0.0",
+    "babel-jest": "^23.6.0",
+    "eslint": "^5.5.0",
+    "eslint-plugin-flowtype": "^2.50.1",
+    "flow-bin": "^0.81.0",
+    "jest": "^23.5.0",
+    "jest-cli": "^23.5.0",
+    "rollup": "^0.63.5",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-node-resolve": "^3.4.0"
+  }
+}
